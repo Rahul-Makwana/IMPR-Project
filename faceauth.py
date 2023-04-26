@@ -7,7 +7,7 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-rahul_image = face_recognition.load_image_file("rahul.jpg")
+rahul_image = face_recognition.load_image_file("rahul1.jpg")
 rahul_face_encoding = face_recognition.face_encodings(rahul_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
